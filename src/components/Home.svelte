@@ -1,4 +1,4 @@
-<div class="hero bg-base-200 min-h-screen">
+<div class="p-16 hero bg-base-200 min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="https://avatars.githubusercontent.com/u/61559225?v=4"
@@ -11,6 +11,8 @@
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
       <button class="btn btn-primary">Get Started</button>
+      <button class="btn btn-primary">Linkedin</button>
+      <button class="btn btn-primary">Github</button>
     </div>
   </div>
 </div>

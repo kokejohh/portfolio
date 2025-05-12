@@ -6,7 +6,7 @@
 
 <div class="tooltip">
     <div class="tooltip-content">
-        <div class="animate-bounce text-primary font-black">{text}</div>
+        <div class="text-primary font-black">{text}</div>
     </div>
-    <Icon icon={`${icon_class}`} width="48" height="48" />
+    <Icon icon={`${icon_class}`} width="36" height="36" />
 </div>

@@ -93,10 +93,10 @@
                 <div class="font-black text-xl mb-4">
                     <TypeWriter texts={['Looking for a developer ?', 'Your next developer is here.']} />
                 </div>
-                <li><a data-prefix="$" class="hover:font-medium text-xl">Home</a></li>
-                <li><a class="hover:font-medium text-xl">Skills</a></li>
-                <li><a class="hover:font-medium text-xl">Experience</a></li>
-                <li><a class="hover:font-medium text-xl">Projects</a></li>
+                <li><a class="p-4 hover:font-medium text-xl">Home</a></li>
+                <li><a class="p-4 hover:font-medium text-xl">Skills</a></li>
+                <li><a class="p-4 hover:font-medium text-xl">Experience</a></li>
+                <li><a class="p-4 hover:font-medium text-xl">Projects</a></li>
             </div>
             <div class="mockup-code w-full">
                 <pre data-prefix="$"><code>cat info</code></pre>

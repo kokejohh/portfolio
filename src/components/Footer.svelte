@@ -1,22 +1,12 @@
-<footer class="footer footer-horizontal bg-neutral text-neutral-content p-16">
+<footer class="footer footer-horizontal bg-base-100 p-16">
   <nav>
     <h6 class="footer-title">Services</h6>
+    Coded in Visual Studio Code by yours truly. Built with SvelteKit.js
+    and DaisyUI (Tailwind CSS), and others library like as iconify,
+    deployed with Vercel.
     <a class="link link-hover">Branding</a>
     <a class="link link-hover">Design</a>
     <a class="link link-hover">Marketing</a>
     <a class="link link-hover">Advertisement</a>
-  </nav>
-  <nav>
-    <h6 class="footer-title">Company</h6>
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
-  </nav>
-  <nav>
-    <h6 class="footer-title">Legal</h6>
-    <a class="link link-hover">Terms of use</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Cookie policy</a>
   </nav>
 </footer>

@@ -2,7 +2,7 @@
     <h1 class="">Experience</h1>
 
 </article>
-<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical lg:w-2/3">
   <li>
     <hr />
     <div class="timeline-middle">

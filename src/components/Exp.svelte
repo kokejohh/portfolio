@@ -2,7 +2,7 @@
     <h1 class="">Experience</h1>
 
 </article>
-<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical lg:w-2/3">
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical w-2/3 lg:w-2/3">
   <li>
     <hr />
     <div class="timeline-middle">
@@ -19,14 +19,16 @@
         />
       </svg>
     </div>
-    <div class="timeline-start mb-10 md:text-end">
-      <time class="font-mono italic">2001</time>
-      <div class="text-lg font-black">iPod</div>
-      The iPod is a discontinued series of portable media players and multi-purpose mobile devices
-      designed and marketed by Apple Inc. The first version was released on October 23, 2001, about
-      8+1⁄2 months after the Macintosh version of iTunes was released. Apple sold an estimated 450
-      million iPod products as of 2022. Apple discontinued the iPod product line on May 10, 2022. At
-      over 20 years, the iPod brand is the oldest to be discontinued by Apple
+    <div class="timeline-start md:mb-10 md:text-end">
+      <time class="font-mono italic">Jan 2025 to Present</time>
+      <div class="text-lg font-black">Final Year Project</div>
+      pthipth (pitchakorn thiprangsi thread) ?
+It is non-preemptive priority thread library inspired by pthread.
+    non-preemptive, meaning threads voluntarily yield control.
+    support thread priorities.
+    each thread can have a time quota.
+    each thread has its own aging mechanism to prevent starvation.
+    can use thread pool to manage thread creation and reuse efficiently.
     </div>
     <hr />
   </li>
@@ -47,13 +49,15 @@
       </svg>
     </div>
     <div class="timeline-end md:mb-10">
-      <time class="font-mono italic">2007</time>
-      <div class="text-lg font-black">iPhone</div>
-      iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-      operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
-      January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As
-      of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone
-      accounts for 15.6% of global smartphone market share
+      <time class="font-mono italic">Jun 2023 to Dec 2023 (6 months)</time>
+      <div class="text-lg font-black">Salesforce Developer Intern</div>
+      <div class="text-lg font-black">The Siam Commercial Bank Limited.</div>
+            Develop according to requirement and
+find defect, root cause in production. Develop Intent page to support
+verification by email.
+Increase the efficiency of paging.
+Using Salesforce tools such as metadata,
+flows, Apex, SOQL and Aura component.
     </div>
     <hr />
   </li>
@@ -74,11 +78,18 @@
       </svg>
     </div>
     <div class="timeline-start mb-10 md:text-end">
-      <time class="font-mono italic">2015</time>
-      <div class="text-lg font-black">Apple Watch</div>
-      The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-      tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-      iOS and other Apple products and services
+      <time class="font-mono italic">Sep 2022 to Feb 2023 (5 months)</time>
+      <div class="text-lg font-black">Back-end Intern</div>
+      <div class="text-lg font-black">BorntoDev Co., Ltd.</div>
+      Designed databases for the group
+and tutorial system.
+Responsible for back-end development
+of website Devlab’s group and
+tutorial system.
+Developed the back-end of the admin
+page to support tutorial system
+management.
+Used node.js, express, and sequelize.
     </div>
   </li>
 </ul>

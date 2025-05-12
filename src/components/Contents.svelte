@@ -6,12 +6,7 @@
     import Skill from "./Skills.svelte";
     import Icon from "@iconify/svelte";
 
-    import { TypeWriter } from 'svelte-typewrite'
-
-    import { onMount } from 'svelte';
-
-    onMount(() => {});
-
+    import { TypeWriter } from "svelte-typewrite";
 </script>
 
 <div class="navbar bg-base-100 px-8 fixed z-1">
@@ -87,43 +82,85 @@
             class="drawer-overlay"
         ></label>
         <ul
-            class="menu bg-base-100 text-base-content min-h-full w-80 pt-16 py-8 justify-between"
+            class="menu bg-base-100 text-base-content min-h-full w-64 lg:w-80 pt-16 py-8 justify-between"
         >
             <div>
-                <div class="font-black text-xl mb-4">
-                    <TypeWriter texts={['Looking for a developer ?', 'Your next developer is here.']} />
+                <div class="font-black text-md lg:text-xl mb-4">
+                    <TypeWriter
+                        texts={[
+                            "Looking for a developer ?",
+                            "Your next developer is here.",
+                        ]}
+                    />
                 </div>
-                <li><a class="p-4 hover:font-medium text-xl">Home</a></li>
-                <li><a class="p-4 hover:font-medium text-xl">Skills</a></li>
-                <li><a class="p-4 hover:font-medium text-xl">Experience</a></li>
-                <li><a class="p-4 hover:font-medium text-xl">Projects</a></li>
+                <li>
+                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                        >Home</a
+                    >
+                </li>
+                <li>
+                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                        >Skills</a
+                    >
+                </li>
+                <li>
+                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                        >Experience</a
+                    >
+                </li>
+                <li>
+                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                        >Projects</a
+                    >
+                </li>
             </div>
-            <div class="mockup-code w-full">
-                <pre data-prefix="$"><code>cat info</code></pre>
-                <pre data-prefix=">" class="text-success"><code>pithcakorn.thip@gmail.com</code></pre>
-                <pre data-prefix=">" class="text-success"><code>+66858189451</code></pre>
+            <div class="space-y-8">
+                <div class="mockup-code w-full">
+                    <pre data-prefix="$" class="text-xs lg:text-base"><code
+                            >cat info</code
+                        ></pre>
+                    <pre
+                        data-prefix=">"
+                        class="text-success text-xs lg:text-base"><code
+                            >pithcakorn.thip@gmail.com</code
+                        ></pre>
+                    <pre
+                        data-prefix=">"
+                        class="text-success text-xs lg:text-base"><code
+                            >+66858189451</code
+                        ></pre>
+                </div>
+                <li class="flex flex-row justify-center">
+                    <a>
+                        <Icon
+                            icon="octicon:mark-github-16"
+                            width="32"
+                            height="32"
+                        />
+                    </a>
+                    <a>
+                        <Icon
+                            icon="devicon-plain:linkedin"
+                            width="32"
+                            height="32"
+                        />
+                    </a>
+                    <a>
+                        <Icon
+                            icon="entypo-social:instagram"
+                            width="32"
+                            height="32"
+                        />
+                    </a>
+                    <a>
+                        <Icon
+                            icon="entypo-social:facebook"
+                            width="32"
+                            height="32"
+                        />
+                    </a>
+                </li>
             </div>
-            <li class="flex flex-row justify-center">
-                <a>
-                <Icon icon="octicon:mark-github-16" width="32" height="32" />
-                </a
-                >
-                <a
-                    >
-                    <Icon icon="devicon-plain:linkedin" width="32" height="32" />
-                    </a
-                >
-                <a
-                    >
-                    <Icon icon="entypo-social:instagram" width="32" height="32" />
-                    </a
-                >
-                <a
-                    >
-                    <Icon icon="entypo-social:facebook" width="32" height="32" />
-                    </a
-                >
-            </li>
         </ul>
     </div>
 </div>

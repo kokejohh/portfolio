@@ -1,7 +1,7 @@
-<article id="experience" class="prose scroll-mt-24">
+<article id="experience" class="prose scroll-mt-20">
     <h1 class="">Experience</h1>
 </article>
-<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical w-2/3 lg:w-2/3">
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical p-8 lg:px-32">
   <li>
     <hr />
     <div class="timeline-middle">

@@ -2,7 +2,7 @@
     import SkillHover from './Skill_hover.svelte';
 </script>
 
-<article id="skills"  class="prose prose-p:font-black prose-p:text-xl lg:w-screen mb-32 lg:grid lg:grid-cols-6 scroll-mt-24">
+<article id="skills"  class="prose prose-p:font-black prose-p:text-xl lg:w-screen mb-32 lg:grid lg:grid-cols-6 scroll-mt-20">
     <h1 class="lg:col-start-3 lg:col-end-6">Skills</h1>
     <div class="lg:col-start-2 lg:col-end-6 flex flex-col">
         <p>Programming Language</p>
@@ -53,5 +53,4 @@
             <SkillHover icon_class="file-icons:figma" text="Figma" />
         </div>
      </div>
-
 </article>

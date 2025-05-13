@@ -94,7 +94,7 @@
                     />
                 </div>
                 <li>
-                    <a href="#home" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                    <a href="#home" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium  active:font-black text-lg lg:text-xl"
                         >Home</a
                     >
                 </li>

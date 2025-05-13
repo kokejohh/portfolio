@@ -1,5 +1,5 @@
 <script lang="ts">
-  let { src, title, detail, img_src, img_alt, tags, status, link_github, link_web} = $props();
+  let { src = "https://media.tenor.com/Dh7CxUiogBMAAAAm/vev-veve.webp", title, detail, img_alt, tags, status, link_github, link_web} = $props();
 </script>
 
 <div class="card bg-base-100 max-w-sm shadow-lg hover:bg-base-200">
@@ -23,10 +23,10 @@
     
     <div class="card-actions space-x-2 justify-end">
       {#if link_github}
-        <a href={link_github} target="_blank" class="btn btn-error">Github</a>
+        <a href={link_github} target="_blank" class="btn btn-error text-base-100">Github</a>
       {/if}
       {#if link_web}
-        <a href={link_web} target="_blank" class="btn btn-accent">Visit</a>
+        <a href={link_web} target="_blank" class="btn btn-accent text-base-100">Visit</a>
       {/if}
     </div>
  

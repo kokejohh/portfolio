@@ -33,6 +33,7 @@
             <SkillHover icon_class="file-icons:sequelize" text="Sequelize" />
             <SkillHover icon_class="devicon-plain:mysql-wordmark" text="MySQL" />
             <SkillHover icon_class="devicon-plain:php" text="PHP" />
+            <SkillHover icon_class="devicon-plain:salesforce" text="Salesforce" />
         </div>
     </div>
      <div class="lg:col-start-1 lg:col-end-4 flex flex-col">

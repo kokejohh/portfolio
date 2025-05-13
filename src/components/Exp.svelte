@@ -1,4 +1,4 @@
-<article id="experience" class="prose scroll-mt-20">
+<article id="experience" class="prose lg:mt-8 scroll-mt-20">
     <h1 class="">Experience</h1>
 </article>
 <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical p-8 lg:px-32">

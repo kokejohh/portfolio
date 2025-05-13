@@ -94,22 +94,22 @@
                     />
                 </div>
                 <li>
-                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                    <a href="#home" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
                         >Home</a
                     >
                 </li>
                 <li>
-                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                    <a href="#skills" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
                         >Skills</a
                     >
                 </li>
                 <li>
-                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                    <a href="#experience" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
                         >Experience</a
                     >
                 </li>
                 <li>
-                    <a class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
+                    <a href="#projects" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium text-lg lg:text-xl"
                         >Projects</a
                     >
                 </li>
@@ -131,28 +131,28 @@
                         ></pre>
                 </div>
                 <li class="flex flex-row justify-center">
-                    <a>
+                    <a href="https://github.com/kokejohh/" target="_blank">
                         <Icon
                             icon="octicon:mark-github-16"
                             width="32"
                             height="32"
                         />
                     </a>
-                    <a>
+                    <a href="https://th.linkedin.com/in/pitchakorn-thiprangsi-a282a129a" target="_blank">
                         <Icon
                             icon="devicon-plain:linkedin"
                             width="32"
                             height="32"
                         />
                     </a>
-                    <a>
+                    <a href="https://www.instagram.com/pitchakornkoke/" target="_blank">
                         <Icon
                             icon="entypo-social:instagram"
                             width="32"
                             height="32"
                         />
                     </a>
-                    <a>
+                    <a href="https://web.facebook.com/Pitchakorn.Koke" target="_blank">
                         <Icon
                             icon="entypo-social:facebook"
                             width="32"

@@ -1,5 +1,5 @@
 
-<div class="p-16 lg:pr-32 hero bg-base-100 min-h-screen">
+<div id="home" class="p-16 lg:pr-32 hero bg-base-100 min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
 
     <img

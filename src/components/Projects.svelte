@@ -2,6 +2,7 @@
     import Card from "./Card.svelte";
 
     import pthipth from "$lib/images/pthipth.jpeg";
+    import portfolio from "$lib/images/porfolio.jpeg";
     import valentines_day from "$lib/images/valentines_day.jpeg";
     import loveme from "$lib/images/loveme.jpeg";
     import pichit300 from "$lib/images/pichit300.jpeg";
@@ -15,7 +16,7 @@
 
 <ul class="menu menu-horizontal p-8 lg:p-16 grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-8">
     <Card src={pthipth} title="pthipth" detail="Thread Library" tags={["Final Year Project", "C","Library", "Thread"]} status={[{title: "Library", color:"badge-secondary"}]} link_github="https://github.com/kokejohh/pthipth"/>
-    <Card  title="portfolio" detail="Website portfolio" tags={["Svelte", "TypeScript", "DaisyUI"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/portfolio"/>
+    <Card src={portfolio} title="portfolio" detail="Website portfolio" tags={["Svelte", "TypeScript", "DaisyUI"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/portfolio"/>
     <Card src={valentines_day} title="valentine-day" detail="" tags={["JavaScript", "HTML", "CSS"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/valentine-day" link_web="https://kokejohh.github.io/valentine-day/"/>
     <Card src={loveme} title="loveme" detail="" tags={["Javascript", "HTML", "CSS"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/loveme" link_web="https://kokejohh.github.io/loveme/"/>
     <Card src={pichit300} title="pichit300" detail="" tags={["Javascript", "HTML", "CSS"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/pichit300" link_web="https://kokejohh.github.io/pichit300/src/"/>

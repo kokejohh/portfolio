@@ -1,4 +1,5 @@
 <script>
+
     import Exp from "./Exp.svelte";
     import Footer from "./Footer.svelte";
     import Home from "./Home.svelte";
@@ -7,9 +8,12 @@
     import Icon from "@iconify/svelte";
 
     import { TypeWriter } from "svelte-typewrite";
+
+    import { theme } from "../stores/theme";
+
 </script>
 
-<div class="navbar bg-base-100 px-8 fixed z-1">
+<div class="navbar bg-base-100 px-2 lg:px-6 fixed z-1">
     <div class="navbar-start">
         <div class="dropdown">
             <label
@@ -41,8 +45,7 @@
     </div>
     <div class="navbar-end">
         <label class="swap swap-rotate">
-            <input type="checkbox" class="theme-controller" value="dim" />
-
+            <input type="checkbox" class="theme-controller" bind:checked={$theme} value="dim" />
             <svg
                 class="swap-off h-8 w-8 fill-current"
                 xmlns="http://www.w3.org/2000/svg"

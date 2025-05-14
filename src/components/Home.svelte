@@ -1,13 +1,37 @@
-<div id="home" class="p-16 lg:pr-32 hero bg-base-100 min-h-screen">
+<script>
+    import Icon from "@iconify/svelte";
+    import me from "$lib/images/me.jpeg";
+    import me_light from "$lib/images/me-light.jpg";
+    import { theme } from "../stores/theme";
+    import { onMount } from "svelte";
+
+    let showPicture = false;
+    let onloading = true;
+    onMount(() => {
+      setTimeout(() => {
+        onloading = false;
+        setTimeout(() => {
+          showPicture = true;
+        }, 100);
+      }, 1000);
+    });
+</script>
+<div id="home" class="p-8 lg:pr-32 hero bg-base-100 min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
-    <img
-      alt="me"
-      src="https://avatars.githubusercontent.com/u/61559225?v=4"
-      class="max-w-3xs rounded-lg shadow-2xl mask mask-squircle animate__animated animate__bounceInDown"
-    />
-    <div class="">
-      <h1 class="text-3xl lg:text-4xl font-bold mt-2 animate__animated animate__bounceInRight">Pitchakorn Thiprangsi</h1>
-      <p class="py-6 text-lg animate__animated animate__bounceInRight animate__delay-02s">
+    {#if !showPicture}
+      <div class="{onloading ? "" : "hidden "} skeleton shadow-2xl h-64 min-w-64 max-w-3xs mask mask-squircle"></div>
+    {/if}
+      <img
+        alt="me"
+        class:opacity-100={showPicture}
+        src={$theme ? me : me_light}
+        class="{onloading ? "hidden " : ""} opacity-0 transition-opacity duration-700 shadow-2xl min-w-64 max-w-3xs mask mask-squircle"
+      />
+  
+    <div>
+      <h1 class="text-2xl lg:text-4xl font-bold mt-2">Pitchakorn Thiprangsi <Icon class="inline" icon="flagpack:th" width="32" height="24" /></h1>
+      
+      <p class="py-6 text-lg">
         I'm passionate about computers and coding, and I aspire to create something extraordinary. I'm eager to gain a comprehensive understanding of programming.
         I have a diverse skill set, including basic knowledge in front-end, back-end, and game development. However, I never stop seeking knowledge.
       </p>
@@ -16,9 +40,3 @@
   </div>
 
 </div>
-
-<style>
-  .animate__delay-02s {
-    animation-delay: 0.2s;
-  }
-</style>

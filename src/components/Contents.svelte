@@ -1,4 +1,8 @@
-<script>
+<script lang="ts">
+    import { onMount } from "svelte";
+    import { TypeWriter } from "svelte-typewrite";
+
+    import { themeDark } from "../stores/theme";
 
     import Exp from "./Exp.svelte";
     import Footer from "./Footer.svelte";
@@ -7,9 +11,11 @@
     import Skill from "./Skills.svelte";
     import Icon from "@iconify/svelte";
 
-    import { TypeWriter } from "svelte-typewrite";
-
-    import { theme } from "../stores/theme";
+    let isDark: boolean = $themeDark;
+    onMount(() => {
+        const media: MediaQueryList = window.matchMedia('(prefers-color-scheme: dark)');
+        isDark = media.matches;
+    });
 
 </script>
 
@@ -45,7 +51,12 @@
     </div>
     <div class="navbar-end">
         <label class="swap swap-rotate">
-            <input type="checkbox" class="theme-controller" bind:checked={$theme} value="dim" />
+            {#if !isDark}
+            <input type="checkbox" class="theme-controller" bind:checked={$themeDark} value="dim" />
+            {:else}
+            <input type="checkbox" class="theme-controller" checked disabled value="dim" />
+            {/if}
+
             <svg
                 class="swap-off h-8 w-8 fill-current"
                 xmlns="http://www.w3.org/2000/svg"

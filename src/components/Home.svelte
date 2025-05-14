@@ -1,12 +1,13 @@
-<script>
+<script lang="ts">
     import Icon from "@iconify/svelte";
     import me from "$lib/images/me.jpeg";
     import me_light from "$lib/images/me-light.jpg";
-    import { theme } from "../stores/theme";
+    import { themeDark } from "../stores/theme";
     import { onMount } from "svelte";
 
-    let showPicture = false;
-    let onloading = true;
+    let showPicture: boolean = false;
+    let onloading: boolean = true;
+
     onMount(() => {
       setTimeout(() => {
         onloading = false;
@@ -15,6 +16,7 @@
         }, 100);
       }, 1000);
     });
+    
 </script>
 <div id="home" class="p-8 lg:pr-32 hero bg-base-100 min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
@@ -24,7 +26,7 @@
       <img
         alt="me"
         class:opacity-100={showPicture}
-        src={$theme ? me : me_light}
+        src={$themeDark ? me : me_light}
         class="{onloading ? "hidden " : ""} opacity-0 transition-opacity duration-700 shadow-2xl min-w-64 max-w-3xs mask mask-squircle"
       />
   

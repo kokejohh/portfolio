@@ -51,11 +51,7 @@
     </div>
     <div class="navbar-end">
         <label class="swap swap-rotate">
-            {#if !isDark}
             <input type="checkbox" class="theme-controller" bind:checked={$themeDark} value="dim" />
-            {:else}
-            <input type="checkbox" class="theme-controller" checked disabled value="dim" />
-            {/if}
 
             <svg
                 class="swap-off h-8 w-8 fill-current"

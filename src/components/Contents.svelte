@@ -10,13 +10,6 @@
     import Projects from "./Projects.svelte";
     import Skill from "./Skills.svelte";
     import Icon from "@iconify/svelte";
-
-    let isDark: boolean = $themeDark;
-    onMount(() => {
-        const media: MediaQueryList = window.matchMedia('(prefers-color-scheme: dark)');
-        isDark = media.matches;
-    });
-
 </script>
 
 <div class="navbar bg-base-100 px-2 lg:px-6 fixed z-1">

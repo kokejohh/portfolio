@@ -39,7 +39,7 @@
     </div>
     <div class="navbar-center">
         <ul class="menu menu-horizontal">
-            <li class="text-2xl font-black">Pitchakorn Thiprangsi</li>
+            <li class="text-2xl font-black">Portfolio</li>
         </ul>
     </div>
     <div class="navbar-end">

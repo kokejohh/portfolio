@@ -21,13 +21,11 @@
     <div class="timeline-start md:mb-10 md:text-end">
       <time class="font-mono italic">Jan 2025 to Present</time>
       <div class="text-lg font-black">Final Year Project</div>
-      pthipth (pitchakorn thiprangsi thread) ?
-It is non-preemptive priority thread library inspired by pthread.
-    non-preemptive, meaning threads voluntarily yield control.
-    support thread priorities.
-    each thread can have a time quota.
-    each thread has its own aging mechanism to prevent starvation.
-    can use thread pool to manage thread creation and reuse efficiently.
+      <div class="text-lg font-black">pthipth</div>
+      pthipth (Pitchakorn Thiprangsi Thread) is a non-preemptive priority thread library inspired by pthreads.
+      This project is a C language library that uses the clone() system call to create threads and the futex() system call to wake and wait for threads.
+      It includes data structures such as a bucket queue, AVL tree, and queue for the scheduler, TCB, and thread states. 
+      it implements all general functions of pthreads and also includes a thread pool to efficiently manage thread creation and reuse.
     </div>
     <hr />
   </li>
@@ -51,12 +49,10 @@ It is non-preemptive priority thread library inspired by pthread.
       <time class="font-mono italic">Jun 2023 to Dec 2023 (6 months)</time>
       <div class="text-lg font-black">Salesforce Developer Intern</div>
       <div class="text-lg font-black">The Siam Commercial Bank Limited.</div>
-            Develop according to requirement and
-find defect, root cause in production. Develop Intent page to support
-verification by email.
-Increase the efficiency of paging.
-Using Salesforce tools such as metadata,
-flows, Apex, SOQL and Aura component.
+        Developed features based on business requirements and investigated production defects,
+        including root cause analysis. Created an Intent Page to support user verification via email.
+        Improved the efficiency of paging functionality in the web application. 
+        Utilized Salesforce tools and technologies including Metadata, Flows, Apex, SOQL, and Aura Components.
     </div>
     <hr />
   </li>
@@ -80,15 +76,10 @@ flows, Apex, SOQL and Aura component.
       <time class="font-mono italic">Sep 2022 to Feb 2023 (5 months)</time>
       <div class="text-lg font-black">Back-end Intern</div>
       <div class="text-lg font-black">BorntoDev Co., Ltd.</div>
-      Designed databases for the group
-and tutorial system.
-Responsible for back-end development
-of website Devlab’s group and
-tutorial system.
-Developed the back-end of the admin
-page to support tutorial system
-management.
-Used node.js, express, and sequelize.
+        Designed databases for the group and tutorial systems.
+        Responsible for the back-end development of Devlab’s group and tutorial systems.
+        Developed the back-end of the admin page to support tutorial system management.
+        Used Node.js, Express, and Sequelize.
     </div>
   </li>
 </ul>

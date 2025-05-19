@@ -1,6 +1,6 @@
 <script lang="ts">
     import Icon from "@iconify/svelte";
-    import me from "$lib/images/me.jpeg";
+    import me from "$lib/images/me.jpg";
     import me_light from "$lib/images/me-light.jpg";
     import { themeDark } from "../stores/theme";
     import { onMount } from "svelte";
@@ -31,11 +31,11 @@
       />
   
     <div>
-      <h1 class="text-2xl lg:text-4xl font-bold mt-2">Pitchakorn Thiprangsi <Icon class="inline" icon="flagpack:th" width="32" height="24" /></h1>
+      <h1 class="text-2xl lg:text-4xl font-bold mt-2">Pitchakorn Thiprangsi<Icon class="inline" icon="flagpack:th" width="32" height="24" /></h1>
       
       <p class="py-6 text-lg">
-        I'm passionate about computers and coding, and I aspire to create something extraordinary. I'm eager to gain a comprehensive understanding of programming.
-        I have a diverse skill set, including basic knowledge in front-end, back-end, and game development. However, I never stop seeking knowledge.
+        I'm passionate about computers and coding, and I hope to create something meaningful one day. I have some experience with front-end, back-end, and game development, and I'm always open to learning more.
+        I love coding and I don’t mind what programming language I’m using, just being able to type on a keyboard and create something new is enough for me.
       </p>
      
     </div>  

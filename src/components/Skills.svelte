@@ -9,10 +9,9 @@
         <div class="flex flex-row space-x-2">
         <SkillHover icon_class="devicon-plain:c" text="C"/>
         <SkillHover icon_class="devicon-plain:cplusplus" text="C++" />
-        <SkillHover icon_class="devicon-plain:java" text="Java" />
         <SkillHover icon_class="devicon-plain:python" text="Python" />
+        <SkillHover icon_class="devicon-plain:java" text="Java" />
         <SkillHover icon_class="file-icons:go" text="Go" />
-        <SkillHover icon_class="devicon-plain:rust" text="Rust" />
         </div>
     </div>
      <div class="lg:col-start-1 lg:col-end-4 flex flex-col">

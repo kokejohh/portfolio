@@ -16,6 +16,8 @@
 
 <ul class="menu menu-horizontal p-8 lg:p-16 grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-8">
     <Card src={pthipth} title="pthipth" detail="Thread Library" tags={["Final Year Project", "C","Library", "Thread"]} status={[{title: "Library", color:"badge-secondary"}]} link_github="https://github.com/kokejohh/pthipth"/>
+    <Card title="Koke Theme" detail="Theme on vscode" tags={["vscode", "Theme", "Extension"]} status={[{title: "Extension", color: "badge-secondary"}]} link_github="https://github.com/kokejohh/koke-theme" link_web="https://marketplace.visualstudio.com/items?itemName=Koke.koke-theme"/>
+    <!-- <Card title="บริการลบคนออกจากฝัน" detail="หากท่านมัญหากวนใจมีใครรบกวนในความฝัน" tags={["Svelte", "DaisyUI"]} status={[{title: "Web", color: "badge-primary"}]} link_github="https://github.com/kokejohh/bingbing" link_web="https://bingbing-sigma.vercel.app/"/> -->
     <Card src={portfolio} title="portfolio" detail="Website portfolio" tags={["Svelte", "TypeScript", "DaisyUI"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/portfolio"/>
     <Card src={valentines_day} title="valentine-day" detail="" tags={["JavaScript", "HTML", "CSS"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/valentine-day" link_web="https://kokejohh.github.io/valentine-day/"/>
     <Card src={loveme} title="loveme" detail="" tags={["Javascript", "HTML", "CSS"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/loveme" link_web="https://kokejohh.github.io/loveme/"/>

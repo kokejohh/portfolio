@@ -4,8 +4,6 @@
 
 <div class="card bg-base-100 max-w-sm shadow-lg hover:bg-base-200">
   <div class="card-body space-y-2">
-   
-
     <figure>
       <img
         src={src}

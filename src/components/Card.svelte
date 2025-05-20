@@ -4,7 +4,14 @@
 
 <div class="card bg-base-100 max-w-sm shadow-lg hover:bg-base-200">
   <div class="card-body space-y-2">
-    <div class="card-title text-2xl">
+   
+
+    <figure>
+      <img
+        src={src}
+        alt={img_alt} />
+    </figure>
+ <div class="card-title text-2xl">
       {title}
       {#each status as s}
         {#if s}
@@ -12,13 +19,6 @@
         {/if}
       {/each}
     </div>
-
-    <figure>
-      <img
-        src={src}
-        alt={img_alt} />
-    </figure>
-
     <p class="">{detail}</p>
     
     <div class="card-actions space-x-2 justify-end">

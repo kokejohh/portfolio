@@ -125,7 +125,7 @@
                     <pre
                         data-prefix=">"
                         class="text-success text-xs lg:text-base"><code
-                            >pithcakorn.thip@gmail.com</code
+                            >pitchakorn.thip@gmail.com</code
                         ></pre>
                     <pre
                         data-prefix=">"

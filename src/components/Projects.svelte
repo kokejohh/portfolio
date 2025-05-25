@@ -2,6 +2,7 @@
     import Card from "./Card.svelte";
 
     import pthipth from "$lib/images/pthipth.jpeg";
+    import todo_list_nuxt from "$lib/images/todo-list-nuxt.jpeg";
     import koke_theme from "$lib/images/koke-theme.png";
     import portfolio from "$lib/images/porfolio.jpeg";
     import valentines_day from "$lib/images/valentines_day.jpeg";
@@ -28,6 +29,7 @@
         non-preemptive, meaning threads voluntarily yield control. support thread priorities. each thread can have a time quota.
         each thread has its own aging mechanism to prevent starvation. can use thread pool to manage thread creation and reuse efficiently."
         tags={["Final Year Project", "C","Library", "Thread"]} status={[{title: "Library", color:"badge-secondary"}]} link_github="https://github.com/kokejohh/pthipth"/>
+    <Card src={todo_list_nuxt} title="todo-list-nuxt" detail="todo-list-nuxt is a todo list website with a database using Vercel, Prisma, and PostgreSQL. It supports drag-and-drop for tasks and allows users to manage their tasks freely." tags={["Nuxt", "TypeScript", "DaisyUI", "Prisma", "SweetAlert2"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/todo-list-nuxt" link_web="https://todo-list-nuxt-eight.vercel.app/"/>
     <Card src={koke_theme} title="Koke Theme" detail="This VSCode theme features a dark green tone that evokes the feeling of a forest. 'Koke' is my nickname. This project uses Yeoman for scaffolding." tags={["vscode", "Theme", "Extension"]} status={[{title: "Extension", color: "badge-secondary"}]} link_github="https://github.com/kokejohh/koke-theme" link_web="https://marketplace.visualstudio.com/items?itemName=Koke.koke-theme"/>
     <!-- <Card title="บริการลบคนออกจากฝัน" detail="หากท่านมัญหากวนใจมีใครรบกวนในความฝัน" tags={["Svelte", "DaisyUI"]} status={[{title: "Web", color: "badge-primary"}]} link_github="https://github.com/kokejohh/bingbing" link_web="https://bingbing-sigma.vercel.app/"/> -->
     <Card src={portfolio} title="portfolio" detail="A personal portfolio website that showcases my past projects, professional experience, and a range of skills." tags={["Svelte", "TypeScript", "DaisyUI"]} status={[{title: "Website", color: "badge-primary"}]} link_github="https://github.com/kokejohh/portfolio"/>

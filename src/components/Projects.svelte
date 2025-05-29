@@ -24,7 +24,7 @@
     <h1>Projects</h1>
 </article>
 
-<ul class="menu menu-horizontal p-8 lg:p-16 grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-8">
+<ul class="menu menu-horizontal p-8 lg:p-16 grid grid-cols-1 gap-1 lg:grid-cols-2 2xl:grid-cols-3 lg:gap-8">
     <Card src={pthipth} title="pthipth" detail="Thread Library, non-preemptive priority thread library inspired by pthreads.
         non-preemptive, meaning threads voluntarily yield control. support thread priorities. each thread can have a time quota.
         each thread has its own aging mechanism to prevent starvation. can use thread pool to manage thread creation and reuse efficiently."

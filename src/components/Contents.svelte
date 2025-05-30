@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     import { TypeWriter } from "svelte-typewrite";
 
     import { themeDark } from "../stores/theme";
@@ -84,7 +83,7 @@
             aria-label="close sidebar"
             class="drawer-overlay"
         ></label>
-        <ul
+        <div
             class="menu bg-base-100 text-base-content min-h-full w-64 lg:w-80 pt-16 py-8 justify-between"
         >
             <div>
@@ -96,6 +95,7 @@
                         ]}
                     />
                 </div>
+                <ul>
                 <li>
                     <a href="#home" on:click={() => { document.getElementById("my-drawer-2")?.click(); }} class="p2 lg:p-4 hover:font-medium  active:font-black text-lg lg:text-xl"
                         >Home</a
@@ -116,6 +116,8 @@
                         >Projects</a
                     >
                 </li>
+
+                </ul>
             </div>
             <div class="space-y-8">
                 <div class="mockup-code w-full">
@@ -133,6 +135,7 @@
                             >+66858189451</code
                         ></pre>
                 </div>
+                <ul>
                 <li class="flex flex-row justify-center">
                     <a href="https://github.com/kokejohh/" target="_blank">
                         <Icon
@@ -163,7 +166,9 @@
                         />
                     </a>
                 </li>
+
+                </ul>
             </div>
-        </ul>
+        </div>
     </div>
 </div>

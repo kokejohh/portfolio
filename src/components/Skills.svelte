@@ -27,7 +27,7 @@
         <SkillHover icon_class="devicon-plain:nodejs" text="Node.js" />
         <SkillHover icon_class="devicon-plain:php" text="PHP" />
         <SkillHover icon_class="devicon-plain:salesforce" text="Salesforce" />
-        <SkillHover icon_class="devicon-plain:spring" text="Spring Boot" />
+        <!-- <SkillHover icon_class="devicon-plain:spring" text="Spring Boot" /> -->
     </SkillBox>
 
     <SkillBox title="Fullstack Frameworks" position="right">

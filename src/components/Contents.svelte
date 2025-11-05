@@ -9,6 +9,7 @@
     import Projects from "./Projects.svelte";
     import Skill from "./Skills.svelte";
     import Icon from "@iconify/svelte";
+    import Certification from "./Certification.svelte";
 </script>
 
 <div class="navbar bg-base-100 px-2 lg:px-6 fixed z-1">
@@ -75,6 +76,7 @@
         <Skill />
         <Exp />
         <Projects />
+        <Certification />
         <Footer />
     </div>
     <div class="drawer-side">

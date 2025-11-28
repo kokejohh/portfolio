@@ -55,7 +55,5 @@
         <SkillHover icon_class="devicon-plain:linux" text="Linux" />
         <SkillHover icon_class="devicon-plain:neovim" text="Neovim" />
         <SkillHover icon_class="devicon-plain:git" text="Git" />
-        <SkillHover icon_class="devicon-plain:postman" text="Postman" />
-        <SkillHover icon_class="file-icons:figma" text="Figma" />
     </SkillBox>
 </article>

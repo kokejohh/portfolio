@@ -23,9 +23,11 @@
       <div class="text-lg font-black">Final Year Project</div>
       <div class="text-lg font-black">pthipth</div>
       pthipth (Pitchakorn Thiprangsi Thread) is a non-preemptive priority thread library inspired by pthreads.
-      This project is a C language library that uses the clone() system call to create threads and the futex() system call to wake and wait for threads.
-      It includes data structures such as a bucket queue, AVL tree, and queue for the scheduler, TCB, and thread states. 
-      it implements all general functions of pthreads and also includes a thread pool to efficiently manage thread creation and reuse.
+      A Non-Preemptive Thread Library for Deterministic and Controllable Execution in C
+      Developed a non-preemptive user-space scheduler over 1:1 threads for deterministic execution.
+      Used direct Linux system calls (clone, futex) to bypass library overhead.
+      Applied Bucket Queues for scheduling and AVL Trees for TCB management.
+      Created a built-in thread pool to minimize overhead and maximize resource reuse.
     </div>
     <hr />
   </li>
@@ -49,10 +51,11 @@
       <time class="font-mono italic">Jun 2023 to Dec 2023 (6 months)</time>
       <div class="text-lg font-black">Salesforce Developer Intern</div>
       <div class="text-lg font-black">The Siam Commercial Bank Limited.</div>
-        Developed features based on business requirements and investigated production defects,
-        including root cause analysis. Created an Intent Page to support user verification via email.
-        Improved the efficiency of paging functionality in the web application. 
-        Utilized Salesforce tools and technologies including Metadata, Flows, Apex, SOQL, and Aura Components.
+      Developed new features and implemented changes based on business requirements.
+      Investigated production defects, analyzed root causes, and delivered fixes to ensure system stability.
+      Built the Intent Verification Page to support customer verification via email.
+      Improved page performance by implementing pagination instead of loading all records at once.
+      Worked with Salesforce technologies including Apex, SOQL, Flows, Metadata, and Aura Components.
     </div>
     <hr />
   </li>
@@ -76,10 +79,10 @@
       <time class="font-mono italic">Sep 2022 to Feb 2023 (5 months)</time>
       <div class="text-lg font-black">Back-end Intern</div>
       <div class="text-lg font-black">BorntoDev Co., Ltd.</div>
-        Designed databases for the group and tutorial systems.
-        Responsible for the back-end development of Devlab’s group and tutorial systems.
-        Developed the back-end of the admin page to support tutorial system management.
-        Used Node.js, Express, and Sequelize.
+      Designed databases for the Devlab group system and tutorial system.
+      Developed back-end features for both the group and tutorial systems.
+      Developed the admin back-end to support tutorial system management.
+      Worked with Node.js, Express, and Sequelize.
     </div>
   </li>
 </ul>

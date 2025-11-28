@@ -18,7 +18,7 @@
     });
     
 </script>
-<div id="home" class="p-8 lg:pr-32 hero bg-base-100 min-h-screen">
+<div id="home" class="pt-16 p-6 lg:pr-32 hero bg-base-100 min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
     {#if !showPicture}
       <div class="{onloading ? "" : "hidden "} skeleton shadow-2xl h-64 min-w-64 max-w-3xs mask mask-squircle"></div>

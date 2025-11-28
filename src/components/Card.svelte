@@ -9,7 +9,7 @@
         src={src}
         alt={img_alt} />
     </figure>
- <div class="card-title text-2xl">
+    <div class="card-title text-2xl flex-wrap">
       {title}
       {#each status as s}
         {#if s}

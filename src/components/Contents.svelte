@@ -76,7 +76,7 @@
         <Skill />
         <Exp />
         <Projects />
-        <Certification />
+        <!-- <Certification /> -->
         <Footer />
     </div>
     <div class="drawer-side">
